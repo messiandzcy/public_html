@@ -1,0 +1,151 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+GET	RenrenRestApiService.class.php	/^	public function GET(){$/;"	f
+HttpRequestService	HttpRequestService.class.php	/^ class HttpRequestService{$/;"	c
+RenrenRestApiService	RenrenRestApiService.class.php	/^ class RenrenRestApiService extends HttpRequestService{$/;"	c
+_DELETE	HttpRequestService.class.php	/^     public function _DELETE($url,$params=null,$username=null,$password=null) {$/;"	f
+_GET	HttpRequestService.class.php	/^     public function _GET($url,$params=null,$username=null,$password=null) {$/;"	f
+_POST	HttpRequestService.class.php	/^     public function _POST($url,$params=null,$username=null,$password=null,$contentType=null) {$/;"	f
+_POST_FOPEN	HttpRequestService.class.php	/^	public function _POST_FOPEN($url,$params=null,$username=null,$password=null,$contentType=null) {$/;"	f
+_PUT	HttpRequestService.class.php	/^     public function _PUT($url,$params=null,$username=null,$password=null,$contentType=null) {$/;"	f
+__construct	HttpRequestService.class.php	/^	public function __construct(){$/;"	f
+__construct	RenrenRestApiService.class.php	/^	public function __construct(){$/;"	f
+_call_id	RenrenRestApiService.class.php	/^		$this->_call_id = str_pad(mt_rand(1, 9999999999), 10, 0, STR_PAD_RIGHT);$/;"	v
+_call_id	RenrenRestApiService.class.php	/^	private $_call_id		= '';$/;"	v
+_config	RenrenRestApiService.class.php	/^		$this->_config = $config;$/;"	v
+_config	RenrenRestApiService.class.php	/^	private $_config;$/;"	v
+_currentMethod	RenrenRestApiService.class.php	/^		$this->_currentMethod	= trim($args[0]); #Method$/;"	v
+_currentMethod	RenrenRestApiService.class.php	/^	private $_currentMethod;$/;"	v
+_encode	HttpRequestService.class.php	/^	public $_encode         ='utf-8';$/;"	v
+_keyMapping	RenrenRestApiService.class.php	/^	private $_keyMapping	= array($/;"	v
+_params	RenrenRestApiService.class.php	/^			$this->_params = $arr;$/;"	v
+_params	RenrenRestApiService.class.php	/^		$this->_params = $params;$/;"	v
+_params	RenrenRestApiService.class.php	/^	private $_params		=	array();$/;"	v
+_photoUpload	HttpRequestService.class.php	/^	 public function _photoUpload($url, $postdata, $files) {$/;"	f
+_postFields	RenrenRestApiService.class.php	/^	private	$_postFields	= '';$/;"	v
+_sig	RenrenRestApiService.class.php	/^			$this->_sig = $str;$/;"	v
+_sig	RenrenRestApiService.class.php	/^	private	$_sig			= '';$/;"	v
+_sigKey	RenrenRestApiService.class.php	/^	private static $_sigKey = 'sig';$/;"	v
+accesstoken	example.php	/^$accesstoken='234030|6.8565308d239d907521e9ff1540bd2c78.2592000.1370757600-524041877';\/\/测试用户就是我自己。。$/;"	v
+api_url	HttpRequestService.class.php	/^	public $api_url;$/;"	v
+args	RenrenRestApiService.class.php	/^		$args = func_get_args();$/;"	v
+arr	RenrenRestApiService.class.php	/^			$arr = array_merge($this->_params, $this->_keyMapping);$/;"	v
+boundary	HttpRequestService.class.php	/^		$boundary = "---------------------".substr(md5(rand(0,32000)), 0, 10);$/;"	v
+call	HttpRequestService.class.php	/^	public function call($url,$method,$postFields=null,$username=null,$password=null,$contentType=null){$/;"	f
+call_fopen	HttpRequestService.class.php	/^	public function call_fopen($url,$method,$postFields=null,$username=null,$password=null,$contentType=null){$/;"	f
+ch	HttpRequestService.class.php	/^		$this->ch = curl_init();$/;"	v
+ch	HttpRequestService.class.php	/^	private $ch;$/;"	v
+close	HttpRequestService.class.php	/^     public function close() {$/;"	f
+config	config.inc.php	/^$config				= new stdClass;$/;"	v
+connecttimeout	HttpRequestService.class.php	/^	public $connecttimeout = 30; $/;"	v
+contentType	HttpRequestService.class.php	/^		$this->contentType	= $contentType;$/;"	v
+contentType	HttpRequestService.class.php	/^	private $contentType;$/;"	v
+contentType	HttpRequestService.class.php	/^         $this->contentType = $contentType;$/;"	v
+convertEncoding	HttpRequestService.class.php	/^	 public static function convertEncoding($source, $in, $out){$/;"	f
+create_post_body	HttpRequestService.class.php	/^	 public function create_post_body($post_params) {$/;"	f
+ctx	HttpRequestService.class.php	/^	   $ctx = stream_context_create($params);$/;"	v
+data	HttpRequestService.class.php	/^			$data = simplexml_load_string($data);$/;"	v
+data	HttpRequestService.class.php	/^		$data = "";$/;"	v
+decodeFormat	HttpRequestService.class.php	/^		$this->decodeFormat = $format;$/;"	v
+decodeFormat	HttpRequestService.class.php	/^	public $decodeFormat = 'json'; \/\/default is json$/;"	v
+do_post_request	HttpRequestService.class.php	/^	public function do_post_request($url, $postdata, $files)$/;"	f
+ext	HttpRequestService.class.php	/^		$ext = !in_array($ext, self::$supportExtension) ? $this->decodeFormat : $ext;$/;"	v
+file	HttpRequestService.class.php	/^				$this->file = tmpFile();$/;"	v
+file	HttpRequestService.class.php	/^	private $file = null;$/;"	v
+fileContents	HttpRequestService.class.php	/^			$fileContents = file_get_contents($file['tmp_name']);$/;"	v
+format	HttpRequestService.class.php	/^		$this->format = $format;$/;"	v
+format	HttpRequestService.class.php	/^	public $format = ''; \/\/ Only support json & xml for extension$/;"	v
+fp	HttpRequestService.class.php	/^	   $fp = fopen($url, 'rb', false, $ctx);$/;"	v
+generateSignature	RenrenRestApiService.class.php	/^	private function generateSignature(){$/;"	f
+getCallId	RenrenRestApiService.class.php	/^	public function getCallId(){$/;"	f
+getHeader	HttpRequestService.class.php	/^	  public function getHeader($ch, $header) {$/;"	f
+get_http_url	HttpRequestService.class.php	/^	  public function get_http_url() {$/;"	f
+host	HttpRequestService.class.php	/^		  $host = "$host:$port";$/;"	v
+host	HttpRequestService.class.php	/^		$host = $parts['host'];$/;"	v
+http_code	HttpRequestService.class.php	/^		$this->http_code = curl_getinfo($this->ch, CURLINFO_HTTP_CODE);$/;"	v
+http_code	HttpRequestService.class.php	/^	public $http_code;$/;"	v
+http_header	HttpRequestService.class.php	/^	public $http_header = array();$/;"	v
+http_info	HttpRequestService.class.php	/^		$this->http_info = array_merge($this->http_info, curl_getinfo($this->ch));$/;"	v
+http_info	HttpRequestService.class.php	/^	public $http_info = array();$/;"	v
+http_url	HttpRequestService.class.php	/^		$this->http_url		= $url;$/;"	v
+http_url	HttpRequestService.class.php	/^	private $http_url;$/;"	v
+i	HttpRequestService.class.php	/^		$i = strpos($header, ':');$/;"	v
+in	HttpRequestService.class.php	/^			$in = "UTF-8";$/;"	v
+in	HttpRequestService.class.php	/^		$in	= strtoupper($in);$/;"	v
+jsonArr	HttpRequestService.class.php	/^			 $jsonArr=get_object_vars($jsonArr);$/;"	v
+json_foreach	HttpRequestService.class.php	/^	 public function json_foreach($jsonArr)$/;"	f
+key	HttpRequestService.class.php	/^		  $key = str_replace('-', '_', strtolower(substr($header, 0, $i)));$/;"	v
+method	HttpRequestService.class.php	/^         $this->method=$method;$/;"	v
+myfile	example.php	/^$myfile=array('upload'=>array($/;"	v
+objectToArray	HttpRequestService.class.php	/^	  public static function objectToArray($obj){$/;"	f
+out	HttpRequestService.class.php	/^			$out = "UTF-8";$/;"	v
+out	HttpRequestService.class.php	/^		$out = $this->get_http_url();$/;"	v
+out	HttpRequestService.class.php	/^		$out = strtoupper($out);$/;"	v
+params	HttpRequestService.class.php	/^		$params = array('http' => array($/;"	v
+params	HttpRequestService.class.php	/^		$params = array();$/;"	v
+params	example.php	/^$params = array('caption'=>'description','access_token'=>$accesstoken);\/\/使用access_token调api的情况，两者的value格式是不同的，参见上面的变量$/;"	v
+params	example.php	/^$params = array('method'=>"status.set",$/;"	v
+params	example.php	/^$params = array('page'=>'1',$/;"	v
+params	example.php	/^$params = array('uids'=>'346132863,741966903','fields'=>'uid,name,sex,birthday,mainurl,hometown_location,tinyurl,headurl,mainurl','session_key'=>$sessionkey);\/\/使用session_key调api的情况$/;"	v
+paramsMerge	RenrenRestApiService.class.php	/^	private function paramsMerge($params){$/;"	f
+paramsOnUrlMethod	HttpRequestService.class.php	/^	private static $paramsOnUrlMethod = array('GET','DELETE');$/;"	v
+parseResponse	HttpRequestService.class.php	/^	 public function parseResponse($resp,$ext=''){$/;"	f
+parts	HttpRequestService.class.php	/^		$parts = parse_url($this->http_url);$/;"	v
+path	HttpRequestService.class.php	/^		$path = @$parts['path'];$/;"	v
+photo_files	RenrenRestApiService.class.php	/^		$photo_files=$args[2];$/;"	v
+port	HttpRequestService.class.php	/^		$port = @$parts['port'];$/;"	v
+postFields	HttpRequestService.class.php	/^		$this->postFields	= $postFields;$/;"	v
+postFields	HttpRequestService.class.php	/^	private $postFields;$/;"	v
+postFields	HttpRequestService.class.php	/^         $this->postFields=$params;$/;"	v
+post_data	HttpRequestService.class.php	/^		$post_data = $this->to_postdata();$/;"	v
+res	example.php	/^$res = $rrObj->rr_photo_post_fopen('photos.upload',$params,$myfile);\/\/基于fopen函数的发送请求$/;"	v
+res	example.php	/^$res = $rrObj->rr_post_curl('friends.getFriends', $params);\/\/curl函数发送请求$/;"	v
+res	example.php	/^$res = $rrObj->rr_post_curl('status.set', $params);\/\/curl函数发送请求$/;"	v
+res	example.php	/^$res = $rrObj->rr_post_curl('users.getInfo', $params);\/\/curl函数发送请求$/;"	v
+resp	HttpRequestService.class.php	/^					$resp = json_decode($resp);break;$/;"	v
+resp	HttpRequestService.class.php	/^					$resp = self::xml_decode($resp);break;$/;"	v
+response	HttpRequestService.class.php	/^		 $response = $this->call($url,'DELETE',$params,$username,$password);$/;"	v
+response	HttpRequestService.class.php	/^		$response = curl_exec($this->ch);$/;"	v
+response	HttpRequestService.class.php	/^	   $response = @stream_get_contents($fp);$/;"	v
+response	HttpRequestService.class.php	/^         $response = $this->call($url,'GET',$params,$username,$password);$/;"	v
+response	HttpRequestService.class.php	/^         $response = $this->call($url,'POST',$params,$username,$password,$contentType);$/;"	v
+response	HttpRequestService.class.php	/^         $response = $this->call($url,'PUT',$params,$username,$password,$contentType);$/;"	v
+response	HttpRequestService.class.php	/^         $response = $this->call_fopen($url,'POST',$params,$username,$password,$contentType);$/;"	v
+response	HttpRequestService.class.php	/^         $response = $this->do_post_request($url, $postdata, $files);$/;"	v
+rrObj	example.php	/^$rrObj = new RenrenRestApiService;$/;"	v
+rr_photo_post_fopen	RenrenRestApiService.class.php	/^	public function rr_photo_post_fopen(){$/;"	f
+rr_post_curl	RenrenRestApiService.class.php	/^	public function rr_post_curl(){$/;"	f
+rr_post_fopen	RenrenRestApiService.class.php	/^	public function rr_post_fopen(){$/;"	f
+scheme	HttpRequestService.class.php	/^		$scheme = $parts['scheme'];$/;"	v
+setAPIURL	RenrenRestApiService.class.php	/^	private function setAPIURL($url){$/;"	f
+setAuthorizeInfo	HttpRequestService.class.php	/^     public function setAuthorizeInfo($username,$password) {$/;"	f
+setConfigToMapping	RenrenRestApiService.class.php	/^	private function setConfigToMapping(){$/;"	f
+setContentType	HttpRequestService.class.php	/^     public function setContentType($contentType) {$/;"	f
+setDecodeFormat	HttpRequestService.class.php	/^	 public function setDecodeFormat($format=null){$/;"	f
+setEncode	HttpRequestService.class.php	/^	 public function setEncode($encode){$/;"	f
+setFormat	HttpRequestService.class.php	/^	 public function setFormat($format=null){$/;"	f
+setMethod	HttpRequestService.class.php	/^     public function setMethod($method) {$/;"	f
+setNotFollow	HttpRequestService.class.php	/^     public function setNotFollow() {$/;"	f
+setParameters	HttpRequestService.class.php	/^     public function setParameters($params) {$/;"	f
+setURL	HttpRequestService.class.php	/^     public function setURL($url) {$/;"	f
+ssl_verifypeer	HttpRequestService.class.php	/^	public $ssl_verifypeer = false;$/;"	v
+str	RenrenRestApiService.class.php	/^			$str = '';$/;"	v
+str	RenrenRestApiService.class.php	/^			$str = md5($str.$this->_config->SecretKey);$/;"	v
+supportExtension	HttpRequestService.class.php	/^	private static $supportExtension  = array('json','xml');$/;"	v
+timeout	HttpRequestService.class.php	/^	public $timeout = 10;$/;"	v
+to_postdata	HttpRequestService.class.php	/^	  public function to_postdata() {$/;"	f
+to_url	HttpRequestService.class.php	/^	  public function to_url() {$/;"	f
+url	HttpRequestService.class.php	/^				$url = "{$this->api_url}{$url}.{$this->format}";$/;"	v
+url	HttpRequestService.class.php	/^		$url				= in_array($method, self::$paramsOnUrlMethod) ? $this->to_url() : $this->get_http_url();$/;"	v
+url	HttpRequestService.class.php	/^         $this->url = $url; $/;"	v
+userAgent	HttpRequestService.class.php	/^	private static $userAgent = 'Timescode_RESTClient v0.0.1-alpha';$/;"	v
+v	HttpRequestService.class.php	/^				$v=$this->convertEncoding($v,"utf-8",$this->_encode);$/;"	v
+v	HttpRequestService.class.php	/^				$v=get_object_vars($v);$/;"	v
+v	RenrenRestApiService.class.php	/^				$v=$this->convertEncoding($v,$this->_encode,"utf-8");$/;"	v
+val	HttpRequestService.class.php	/^				$val = implode(',', $val);$/;"	v
+value	HttpRequestService.class.php	/^		  $value = trim(substr($header, $i + 2));$/;"	v
+xml_decode	HttpRequestService.class.php	/^	  public static function xml_decode($data,$toArray=false){$/;"	f
